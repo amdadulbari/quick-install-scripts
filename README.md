@@ -1,11 +1,17 @@
 # quick-install-scripts
 shell scripts for installing tools in one click. 
 
-### Docker:
+### Docker Ubuntu:
 
 ```sh
-$ curl -s https://raw.githubusercontent.com/amdadulbari/quick-install-scripts/master/install-docker.sh | sh
+curl -s https://raw.githubusercontent.com/amdadulbari/quick-install-scripts/master/install-docker.sh | sh
 ```
+### Docker CentOS:
+
+```sh
+curl -s https://raw.githubusercontent.com/amdadulbari/quick-install-scripts/master/docker-install-centos.sh | sh
+```
+
 
 ### Dockerized MQTT Broker with Websocket enabled config:
 
